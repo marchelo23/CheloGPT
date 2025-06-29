@@ -1,0 +1,26 @@
+gitignore
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+temp/
+tmp/
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+# backend/requirements.txt
+
+# Framework web subyacente y servidor de producción
+Flask>=3.0
+gunicorn>=22.0
+
+
+# SDKs para interactuar con los LLMs
+google-generativeai>=0.5.0
+openai>=1.0.0
+anthropic>=0.25.0
+
+# SDK para la base de datos Firestore y gestión de secretos
+google-cloud-firestore>=2.16.0
+google-cloud-secret-manager>=2.19.0
